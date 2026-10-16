@@ -171,26 +171,22 @@ jepa_predictor_dim: 128
 jepa_momentum: 0.996
 jepa_momentum_end: 1.0
 jepa_anneal_steps: !ref <N_epochs> * (20000 // <batch_size>)
-JEPAContext: !new:modules.mamba_blocks.MambaBlocksSequential
-    n_mamba: !ref <jepa_context_layers>
-    bidirectional: True
+JEPAContext: !new:speechbrain.lobes.models.dual_path.SBTransformerBlock
+    num_layers: !ref <jepa_context_layers>
     d_model: !ref <N_encoder_out>
-    d_state: 16
-    expand: 2
-    d_conv: 4
-    fused_add_norm: False
-    rms_norm: True
-    residual_in_fp32: False
-JEPAPredictor: !new:modules.mamba_blocks.MambaBlocksSequential
-    n_mamba: !ref <jepa_predictor_layers>
-    bidirectional: True
+    nhead: 8
+    d_ffn: !ref <N_encoder_out> * 4
+    dropout: 0
+    use_positional_encoding: True
+    norm_before: True
+JEPAPredictor: !new:speechbrain.lobes.models.dual_path.SBTransformerBlock
+    num_layers: !ref <jepa_predictor_layers>
     d_model: !ref <jepa_predictor_dim>
-    d_state: 16
-    expand: 2
-    d_conv: 4
-    fused_add_norm: False
-    rms_norm: True
-    residual_in_fp32: False
+    nhead: 8
+    d_ffn: !ref <jepa_predictor_dim> * 4
+    dropout: 0
+    use_positional_encoding: True
+    norm_before: True
 JEPA: !new:modules.jepa.MaskedSourceJEPA
     encoder: !ref <Encoder>
     context_model: !ref <JEPAContext>
