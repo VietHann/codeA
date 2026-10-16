@@ -1,0 +1,149 @@
+master_addr is only used for static rdzv_backend and when rdzv_endpoint is not specified.
+torchvision is not available - cannot save figures
+torchvision is not available - cannot save figures
+torchvision is not available - cannot save figures
+speechbrain.core - Beginning experiment!
+speechbrain.core - Experiment folder: /home/lab/letuan/code/speechseparation/code/results/LibriMix/sepformer/1234
+libibverbs: Warning: couldn't load driver 'libefa-rdmav34.so': libefa-rdmav34.so: cannot open shared object file: No such file or directory
+libibverbs: Warning: couldn't load driver 'libsiw-rdmav34.so': /usr/lib/x86_64-linux-gnu/libibverbs/libsiw-rdmav34.so: undefined symbol: __verbs_log, version IBVERBS_PRIVATE_34
+libibverbs: Warning: couldn't load driver 'librxe-rdmav34.so': /usr/lib/x86_64-linux-gnu/libibverbs/librxe-rdmav34.so: undefined symbol: __verbs_log, version IBVERBS_PRIVATE_34
+libibverbs: Warning: couldn't load driver 'libhns-rdmav34.so': /usr/lib/x86_64-linux-gnu/libibverbs/libhns-rdmav34.so: undefined symbol: __verbs_log, version IBVERBS_PRIVATE_34
+libibverbs: Warning: couldn't load driver 'libefa-rdmav34.so': libefa-rdmav34.so: cannot open shared object file: No such file or directory
+libibverbs: Warning: couldn't load driver 'libsiw-rdmav34.so': /usr/lib/x86_64-linux-gnu/libibverbs/libsiw-rdmav34.so: undefined symbol: __verbs_log, version IBVERBS_PRIVATE_34
+libibverbs: Warning: couldn't load driver 'librxe-rdmav34.so': /usr/lib/x86_64-linux-gnu/libibverbs/librxe-rdmav34.so: undefined symbol: __verbs_log, version IBVERBS_PRIVATE_34
+libibverbs: Warning: couldn't load driver 'libhns-rdmav34.so': /usr/lib/x86_64-linux-gnu/libibverbs/libhns-rdmav34.so: undefined symbol: __verbs_log, version IBVERBS_PRIVATE_34
+libibverbs: Warning: couldn't load driver 'libefa-rdmav34.so': libefa-rdmav34.so: cannot open shared object file: No such file or directory
+libibverbs: Warning: couldn't load driver 'libsiw-rdmav34.so': /usr/lib/x86_64-linux-gnu/libibverbs/libsiw-rdmav34.so: undefined symbol: __verbs_log, version IBVERBS_PRIVATE_34
+libibverbs: Warning: couldn't load driver 'librxe-rdmav34.so': /usr/lib/x86_64-linux-gnu/libibverbs/librxe-rdmav34.so: undefined symbol: __verbs_log, version IBVERBS_PRIVATE_34
+libibverbs: Warning: couldn't load driver 'libhns-rdmav34.so': /usr/lib/x86_64-linux-gnu/libibverbs/libhns-rdmav34.so: undefined symbol: __verbs_log, version IBVERBS_PRIVATE_34
+[DATA] Reading /raid/home/lab/letuan/code/speechseparation/data/LibriMix/storage/Libri2Mix/wav8k/min/metadata/mixture_train-100_mix_clean.csv
+Prepare LibriMix train-100:   0%|          | 0/13900 [00:00<?, ?it/s]Prepare LibriMix train-100: 100%|██████████| 13900/13900 [00:00<00:00, 43400.26it/s]
+[DATA] Reading /raid/home/lab/letuan/code/speechseparation/data/LibriMix/storage/Libri2Mix/wav8k/min/metadata/mixture_dev_mix_clean.csv
+Prepare LibriMix dev:   0%|          | 0/3000 [00:00<?, ?it/s]Prepare LibriMix dev: 100%|██████████| 3000/3000 [00:00<00:00, 43870.72it/s]
+[DATA] Reading /raid/home/lab/letuan/code/speechseparation/data/LibriMix/storage/Libri2Mix/wav8k/min/metadata/mixture_test_mix_clean.csv
+Prepare LibriMix test:   0%|          | 0/3000 [00:00<?, ?it/s]Prepare LibriMix test: 100%|██████████| 3000/3000 [00:00<00:00, 43494.64it/s]
+[DATA] train-100: 13900 mixtures -> /home/lab/letuan/code/speechseparation/code/results/LibriMix/sepformer/1234/save/libri2mix_train-100.csv
+[DATA] dev: 3000 mixtures -> /home/lab/letuan/code/speechseparation/code/results/LibriMix/sepformer/1234/save/libri2mix_dev.csv
+[DATA] test: 3000 mixtures -> /home/lab/letuan/code/speechseparation/code/results/LibriMix/sepformer/1234/save/libri2mix_test.csv
+speechbrain.core - Info: precision arg overridden by command line input to: fp16
+speechbrain.core - Info: noprogressbar arg from hparam file is used
+speechbrain.core - Gradscaler enabled: True. Using precision: fp16.
+speechbrain.core - 26.4M trainable parameters in Separation
+speechbrain.utils.checkpoints - Loading a checkpoint from /home/lab/letuan/code/speechseparation/code/results/LibriMix/sepformer/1234/save/CKPT+2026-10-11+04-17-35+00
+Traceback (most recent call last):
+  File "/home/lab/letuan/code/speechseparation/code/.venv/lib/python3.10/site-packages/speechbrain/utils/checkpoints.py", line 1046, in _call_load_hooks
+    loadpath = checkpoint.paramfiles[name]
+KeyError: 'lr_scheduler'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/raid/home/lab/letuan/code/speechseparation/code/train_wsj0mix.py", line 941, in <module>
+    separator.fit(
+  File "/home/lab/letuan/code/speechseparation/code/.venv/lib/python3.10/site-packages/speechbrain/core.py", line 1545, in fit
+speechbrain.core - Exception:
+Traceback (most recent call last):
+  File "/home/lab/letuan/code/speechseparation/code/.venv/lib/python3.10/site-packages/speechbrain/utils/checkpoints.py", line 1046, in _call_load_hooks
+    loadpath = checkpoint.paramfiles[name]
+KeyError: 'lr_scheduler'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/raid/home/lab/letuan/code/speechseparation/code/train_wsj0mix.py", line 941, in <module>
+    separator.fit(
+  File "/home/lab/letuan/code/speechseparation/code/.venv/lib/python3.10/site-packages/speechbrain/core.py", line 1545, in fit
+    self.on_fit_start()
+  File "/raid/home/lab/letuan/code/speechseparation/code/train_wsj0mix.py", line 392, in on_fit_start
+    self.init_optimizers()
+  File "/raid/home/lab/letuan/code/speechseparation/code/train_wsj0mix.py", line 402, in init_optimizers
+    self.checkpointer.recover_if_possible()
+  File "/home/lab/letuan/code/speechseparation/code/.venv/lib/python3.10/site-packages/speechbrain/utils/checkpoints.py", line 911, in recover_if_possible
+    self.load_checkpoint(chosen_ckpt)
+  File "/home/lab/letuan/code/speechseparation/code/.venv/lib/python3.10/site-packages/speechbrain/utils/checkpoints.py", line 924, in load_checkpoint
+    self._call_load_hooks(checkpoint)
+  File "/home/lab/letuan/code/speechseparation/code/.venv/lib/python3.10/site-packages/speechbrain/utils/checkpoints.py", line 1056, in _call_load_hooks
+    if self.optional_recoverables[name]:
+KeyError: 'lr_scheduler'
+    self.on_fit_start()
+  File "/raid/home/lab/letuan/code/speechseparation/code/train_wsj0mix.py", line 392, in on_fit_start
+    self.init_optimizers()
+  File "/raid/home/lab/letuan/code/speechseparation/code/train_wsj0mix.py", line 402, in init_optimizers
+    self.checkpointer.recover_if_possible()
+  File "/home/lab/letuan/code/speechseparation/code/.venv/lib/python3.10/site-packages/speechbrain/utils/checkpoints.py", line 911, in recover_if_possible
+    self.load_checkpoint(chosen_ckpt)
+  File "/home/lab/letuan/code/speechseparation/code/.venv/lib/python3.10/site-packages/speechbrain/utils/checkpoints.py", line 924, in load_checkpoint
+Traceback (most recent call last):
+    self._call_load_hooks(checkpoint)
+  File "/home/lab/letuan/code/speechseparation/code/.venv/lib/python3.10/site-packages/speechbrain/utils/checkpoints.py", line 1046, in _call_load_hooks
+  File "/home/lab/letuan/code/speechseparation/code/.venv/lib/python3.10/site-packages/speechbrain/utils/checkpoints.py", line 1056, in _call_load_hooks
+    if self.optional_recoverables[name]:
+KeyError    : 'lr_scheduler'loadpath = checkpoint.paramfiles[name]
+
+KeyError: 'lr_scheduler'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/raid/home/lab/letuan/code/speechseparation/code/train_wsj0mix.py", line 941, in <module>
+    separator.fit(
+  File "/home/lab/letuan/code/speechseparation/code/.venv/lib/python3.10/site-packages/speechbrain/core.py", line 1545, in fit
+    self.on_fit_start()
+  File "/raid/home/lab/letuan/code/speechseparation/code/train_wsj0mix.py", line 392, in on_fit_start
+    self.init_optimizers()
+  File "/raid/home/lab/letuan/code/speechseparation/code/train_wsj0mix.py", line 402, in init_optimizers
+    self.checkpointer.recover_if_possible()
+  File "/home/lab/letuan/code/speechseparation/code/.venv/lib/python3.10/site-packages/speechbrain/utils/checkpoints.py", line 911, in recover_if_possible
+    self.load_checkpoint(chosen_ckpt)
+  File "/home/lab/letuan/code/speechseparation/code/.venv/lib/python3.10/site-packages/speechbrain/utils/checkpoints.py", line 924, in load_checkpoint
+    self._call_load_hooks(checkpoint)
+  File "/home/lab/letuan/code/speechseparation/code/.venv/lib/python3.10/site-packages/speechbrain/utils/checkpoints.py", line 1056, in _call_load_hooks
+    if self.optional_recoverables[name]:
+KeyError: 'lr_scheduler'
+ERROR:torch.distributed.elastic.multiprocessing.api:failed (exitcode: 1) local_rank: 0 (pid: 672485) of binary: /home/lab/letuan/code/speechseparation/code/.venv/bin/python
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/runpy.py", line 196, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "/usr/lib/python3.10/runpy.py", line 86, in _run_code
+    exec(code, run_globals)
+  File "/home/lab/letuan/code/speechseparation/code/.venv/lib/python3.10/site-packages/torch/distributed/run.py", line 798, in <module>
+    main()
+  File "/home/lab/letuan/code/speechseparation/code/.venv/lib/python3.10/site-packages/torch/distributed/elastic/multiprocessing/errors/__init__.py", line 346, in wrapper
+    return f(*args, **kwargs)
+  File "/home/lab/letuan/code/speechseparation/code/.venv/lib/python3.10/site-packages/torch/distributed/run.py", line 794, in main
+    run(args)
+  File "/home/lab/letuan/code/speechseparation/code/.venv/lib/python3.10/site-packages/torch/distributed/run.py", line 785, in run
+    elastic_launch(
+  File "/home/lab/letuan/code/speechseparation/code/.venv/lib/python3.10/site-packages/torch/distributed/launcher/api.py", line 134, in __call__
+    return launch_agent(self._config, self._entrypoint, list(args))
+  File "/home/lab/letuan/code/speechseparation/code/.venv/lib/python3.10/site-packages/torch/distributed/launcher/api.py", line 250, in launch_agent
+    raise ChildFailedError(
+torch.distributed.elastic.multiprocessing.errors.ChildFailedError: 
+============================================================
+train_wsj0mix.py FAILED
+------------------------------------------------------------
+Failures:
+[1]:
+  time      : 2026-10-11_05:04:04
+  host      : cassio02.gi.utc
+  rank      : 1 (local_rank: 1)
+  exitcode  : 1 (pid: 672486)
+  error_file: <N/A>
+  traceback : To enable traceback see: https://pytorch.org/docs/stable/elastic/errors.html
+[2]:
+  time      : 2026-10-11_05:04:04
+  host      : cassio02.gi.utc
+  rank      : 2 (local_rank: 2)
+  exitcode  : 1 (pid: 672487)
+  error_file: <N/A>
+  traceback : To enable traceback see: https://pytorch.org/docs/stable/elastic/errors.html
+------------------------------------------------------------
+Root Cause (first observed failure):
+[0]:
+  time      : 2026-10-11_05:04:04
+  host      : cassio02.gi.utc
+  rank      : 0 (local_rank: 0)
+  exitcode  : 1 (pid: 672485)
+  error_file: <N/A>
+  traceback : To enable traceback see: https://pytorch.org/docs/stable/elastic/errors.html
+============================================================

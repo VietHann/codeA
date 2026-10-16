@@ -1,0 +1,47 @@
+master_addr is only used for static rdzv_backend and when rdzv_endpoint is not specified.
+torchvision is not available - cannot save figures
+torchvision is not available - cannot save figures
+torchvision is not available - cannot save figures
+speechbrain.core - Beginning experiment!
+speechbrain.core - Experiment folder: /home/lab/letuan/code/speechseparation/code/results/LibriMix/sepformer/1234
+libibverbs: Warning: couldn't load driver 'libefa-rdmav34.so': libefa-rdmav34.so: cannot open shared object file: No such file or directory
+libibverbs: Warning: couldn't load driver 'libsiw-rdmav34.so': /usr/lib/x86_64-linux-gnu/libibverbs/libsiw-rdmav34.so: undefined symbol: __verbs_log, version IBVERBS_PRIVATE_34
+libibverbs: Warning: couldn't load driver 'librxe-rdmav34.so': /usr/lib/x86_64-linux-gnu/libibverbs/librxe-rdmav34.so: undefined symbol: __verbs_log, version IBVERBS_PRIVATE_34
+libibverbs: Warning: couldn't load driver 'libhns-rdmav34.so': /usr/lib/x86_64-linux-gnu/libibverbs/libhns-rdmav34.so: undefined symbol: __verbs_log, version IBVERBS_PRIVATE_34
+libibverbs: Warning: couldn't load driver 'libefa-rdmav34.so': libefa-rdmav34.so: cannot open shared object file: No such file or directory
+libibverbs: Warning: couldn't load driver 'libsiw-rdmav34.so': /usr/lib/x86_64-linux-gnu/libibverbs/libsiw-rdmav34.so: undefined symbol: __verbs_log, version IBVERBS_PRIVATE_34
+libibverbs: Warning: couldn't load driver 'librxe-rdmav34.so': /usr/lib/x86_64-linux-gnu/libibverbs/librxe-rdmav34.so: undefined symbol: __verbs_log, version IBVERBS_PRIVATE_34
+libibverbs: Warning: couldn't load driver 'libefa-rdmav34.so': libefa-rdmav34.so: cannot open shared object file: No such file or directory
+libibverbs: Warning: couldn't load driver 'libhns-rdmav34.so': /usr/lib/x86_64-linux-gnu/libibverbs/libhns-rdmav34.so: undefined symbol: __verbs_log, version IBVERBS_PRIVATE_34
+libibverbs: Warning: couldn't load driver 'libsiw-rdmav34.so': /usr/lib/x86_64-linux-gnu/libibverbs/libsiw-rdmav34.so: undefined symbol: __verbs_log, version IBVERBS_PRIVATE_34
+libibverbs: Warning: couldn't load driver 'librxe-rdmav34.so': /usr/lib/x86_64-linux-gnu/libibverbs/librxe-rdmav34.so: undefined symbol: __verbs_log, version IBVERBS_PRIVATE_34
+libibverbs: Warning: couldn't load driver 'libhns-rdmav34.so': /usr/lib/x86_64-linux-gnu/libibverbs/libhns-rdmav34.so: undefined symbol: __verbs_log, version IBVERBS_PRIVATE_34
+[DATA] Reading /raid/home/lab/letuan/code/speechseparation/data/LibriMix/storage/Libri2Mix/wav8k/min/metadata/mixture_train-100_mix_clean.csv
+Prepare LibriMix train-100:   0%|          | 0/13900 [00:00<?, ?it/s]Prepare LibriMix train-100: 100%|██████████| 13900/13900 [00:00<00:00, 40171.89it/s]
+[DATA] Reading /raid/home/lab/letuan/code/speechseparation/data/LibriMix/storage/Libri2Mix/wav8k/min/metadata/mixture_dev_mix_clean.csv
+Prepare LibriMix dev:   0%|          | 0/3000 [00:00<?, ?it/s]Prepare LibriMix dev: 100%|██████████| 3000/3000 [00:00<00:00, 42223.12it/s]
+[DATA] Reading /raid/home/lab/letuan/code/speechseparation/data/LibriMix/storage/Libri2Mix/wav8k/min/metadata/mixture_test_mix_clean.csv
+Prepare LibriMix test:   0%|          | 0/3000 [00:00<?, ?it/s]Prepare LibriMix test: 100%|██████████| 3000/3000 [00:00<00:00, 42811.40it/s]
+[DATA] train-100: 13900 mixtures -> /home/lab/letuan/code/speechseparation/code/results/LibriMix/sepformer/1234/save/libri2mix_train-100.csv
+[DATA] dev: 3000 mixtures -> /home/lab/letuan/code/speechseparation/code/results/LibriMix/sepformer/1234/save/libri2mix_dev.csv
+[DATA] test: 3000 mixtures -> /home/lab/letuan/code/speechseparation/code/results/LibriMix/sepformer/1234/save/libri2mix_test.csv
+speechbrain.core - Info: precision arg overridden by command line input to: fp16
+speechbrain.core - Info: noprogressbar arg from hparam file is used
+speechbrain.core - Gradscaler enabled: True. Using precision: fp16.
+speechbrain.core - 26.4M trainable parameters in Separation
+speechbrain.utils.checkpoints - Loading a checkpoint from /home/lab/letuan/code/speechseparation/code/results/LibriMix/sepformer/1234/save/CKPT+2026-10-11+04-17-35+00
+/home/lab/letuan/code/speechseparation/code/.venv/lib/python3.10/site-packages/speechbrain/utils/checkpoints.py:1060: UserWarning: Trying to load checkpoint from /home/lab/letuan/code/speechseparation/code/results/LibriMix/sepformer/1234/save/CKPT+2026-10-11+04-17-35+00,                                 but missing a load path for scaler. Skipping as this                                 recoverable is marked as optional.
+  warnings.warn(MSG, UserWarning)
+/home/lab/letuan/code/speechseparation/code/.venv/lib/python3.10/site-packages/speechbrain/utils/checkpoints.py:1060: UserWarning: Trying to load checkpoint from /home/lab/letuan/code/speechseparation/code/results/LibriMix/sepformer/1234/save/CKPT+2026-10-11+04-17-35+00,                                 but missing a load path for scaler. Skipping as this                                 recoverable is marked as optional.
+  warnings.warn(MSG, UserWarning)
+/home/lab/letuan/code/speechseparation/code/.venv/lib/python3.10/site-packages/speechbrain/utils/checkpoints.py:1060: UserWarning: Trying to load checkpoint from /home/lab/letuan/code/speechseparation/code/results/LibriMix/sepformer/1234/save/CKPT+2026-10-11+04-17-35+00,                                 but missing a load path for scaler. Skipping as this                                 recoverable is marked as optional.
+  warnings.warn(MSG, UserWarning)
+Start training at 0 steps.
+<speechbrain.nnet.schedulers.ReduceLROnPlateau object at 0x7f6e4526bd60>
+Start training at 0 steps.
+<speechbrain.nnet.schedulers.ReduceLROnPlateau object at 0x7f00f7abfca0>
+Start training at 0 steps.
+<speechbrain.nnet.schedulers.ReduceLROnPlateau object at 0x7f8160097ca0>
+speechbrain.utils.epoch_loop - Going into epoch 1
+[TRAIN] Epoch 1/200
+  0%|          | 0/4634 [00:00<?, ?it/s]

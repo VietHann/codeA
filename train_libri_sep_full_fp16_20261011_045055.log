@@ -1,0 +1,62 @@
+master_addr is only used for static rdzv_backend and when rdzv_endpoint is not specified.
+torchvision is not available - cannot save figures
+torchvision is not available - cannot save figures
+torchvision is not available - cannot save figures
+speechbrain.core - Beginning experiment!
+speechbrain.core - Experiment folder: /home/lab/letuan/code/speechseparation/code/results/LibriMix/sepformer/1234
+libibverbs: Warning: couldn't load driver 'libefa-rdmav34.so': libefa-rdmav34.so: cannot open shared object file: No such file or directory
+libibverbs: Warning: couldn't load driver 'libsiw-rdmav34.so': /usr/lib/x86_64-linux-gnu/libibverbs/libsiw-rdmav34.so: undefined symbol: __verbs_log, version IBVERBS_PRIVATE_34
+libibverbs: Warning: couldn't load driver 'librxe-rdmav34.so': /usr/lib/x86_64-linux-gnu/libibverbs/librxe-rdmav34.so: undefined symbol: __verbs_log, version IBVERBS_PRIVATE_34
+libibverbs: Warning: couldn't load driver 'libhns-rdmav34.so': /usr/lib/x86_64-linux-gnu/libibverbs/libhns-rdmav34.so: undefined symbol: __verbs_log, version IBVERBS_PRIVATE_34
+libibverbs: Warning: couldn't load driver 'libefa-rdmav34.so': libefa-rdmav34.so: cannot open shared object file: No such file or directory
+libibverbs: Warning: couldn't load driver 'libsiw-rdmav34.so': /usr/lib/x86_64-linux-gnu/libibverbs/libsiw-rdmav34.so: undefined symbol: __verbs_log, version IBVERBS_PRIVATE_34
+libibverbs: Warning: couldn't load driver 'librxe-rdmav34.so': /usr/lib/x86_64-linux-gnu/libibverbs/librxe-rdmav34.so: undefined symbol: __verbs_log, version IBVERBS_PRIVATE_34
+libibverbs: Warning: couldn't load driver 'libhns-rdmav34.so': /usr/lib/x86_64-linux-gnu/libibverbs/libhns-rdmav34.so: undefined symbol: __verbs_log, version IBVERBS_PRIVATE_34
+libibverbs: Warning: couldn't load driver 'libefa-rdmav34.so': libefa-rdmav34.so: cannot open shared object file: No such file or directory
+libibverbs: Warning: couldn't load driver 'libsiw-rdmav34.so': /usr/lib/x86_64-linux-gnu/libibverbs/libsiw-rdmav34.so: undefined symbol: __verbs_log, version IBVERBS_PRIVATE_34
+libibverbs: Warning: couldn't load driver 'librxe-rdmav34.so': /usr/lib/x86_64-linux-gnu/libibverbs/librxe-rdmav34.so: undefined symbol: __verbs_log, version IBVERBS_PRIVATE_34
+libibverbs: Warning: couldn't load driver 'libhns-rdmav34.so': /usr/lib/x86_64-linux-gnu/libibverbs/libhns-rdmav34.so: undefined symbol: __verbs_log, version IBVERBS_PRIVATE_34
+[DATA] Reading /raid/home/lab/letuan/code/speechseparation/data/LibriMix/storage/Libri2Mix/wav8k/min/metadata/mixture_train-100_mix_clean.csv
+Prepare LibriMix train-100:   0%|          | 0/13900 [00:00<?, ?it/s]Prepare LibriMix train-100: 100%|██████████| 13900/13900 [00:00<00:00, 48097.83it/s]
+[DATA] Reading /raid/home/lab/letuan/code/speechseparation/data/LibriMix/storage/Libri2Mix/wav8k/min/metadata/mixture_dev_mix_clean.csv
+Prepare LibriMix dev:   0%|          | 0/3000 [00:00<?, ?it/s]Prepare LibriMix dev: 100%|██████████| 3000/3000 [00:00<00:00, 50775.22it/s]
+[DATA] Reading /raid/home/lab/letuan/code/speechseparation/data/LibriMix/storage/Libri2Mix/wav8k/min/metadata/mixture_test_mix_clean.csv
+Prepare LibriMix test:   0%|          | 0/3000 [00:00<?, ?it/s]Prepare LibriMix test: 100%|██████████| 3000/3000 [00:00<00:00, 47335.32it/s]
+[DATA] train-100: 13900 mixtures -> /home/lab/letuan/code/speechseparation/code/results/LibriMix/sepformer/1234/save/libri2mix_train-100.csv
+[DATA] dev: 3000 mixtures -> /home/lab/letuan/code/speechseparation/code/results/LibriMix/sepformer/1234/save/libri2mix_dev.csv
+[DATA] test: 3000 mixtures -> /home/lab/letuan/code/speechseparation/code/results/LibriMix/sepformer/1234/save/libri2mix_test.csv
+speechbrain.core - Info: precision arg overridden by command line input to: fp16
+speechbrain.core - Info: noprogressbar arg from hparam file is used
+speechbrain.core - Gradscaler enabled: True. Using precision: fp16.
+speechbrain.core - 26.4M trainable parameters in Separation
+speechbrain.utils.checkpoints - Loading a checkpoint from /home/lab/letuan/code/speechseparation/code/results/LibriMix/sepformer/1234/save/CKPT+2026-10-11+04-17-35+00
+/home/lab/letuan/code/speechseparation/code/.venv/lib/python3.10/site-packages/speechbrain/utils/checkpoints.py:1060: UserWarning: Trying to load checkpoint from /home/lab/letuan/code/speechseparation/code/results/LibriMix/sepformer/1234/save/CKPT+2026-10-11+04-17-35+00,                                 but missing a load path for scaler. Skipping as this                                 recoverable is marked as optional.
+  warnings.warn(MSG, UserWarning)
+/home/lab/letuan/code/speechseparation/code/.venv/lib/python3.10/site-packages/speechbrain/utils/checkpoints.py:1060: UserWarning: Trying to load checkpoint from /home/lab/letuan/code/speechseparation/code/results/LibriMix/sepformer/1234/save/CKPT+2026-10-11+04-17-35+00,                                 but missing a load path for scaler. Skipping as this                                 recoverable is marked as optional.
+  warnings.warn(MSG, UserWarning)
+/home/lab/letuan/code/speechseparation/code/.venv/lib/python3.10/site-packages/speechbrain/utils/checkpoints.py:1060: UserWarning: Trying to load checkpoint from /home/lab/letuan/code/speechseparation/code/results/LibriMix/sepformer/1234/save/CKPT+2026-10-11+04-17-35+00,                                 but missing a load path for scaler. Skipping as this                                 recoverable is marked as optional.
+  warnings.warn(MSG, UserWarning)
+Start training at 0 steps.
+<speechbrain.nnet.schedulers.ReduceLROnPlateau object at 0x7f5824d43d30>
+Start training at 0 steps.
+<speechbrain.nnet.schedulers.ReduceLROnPlateau object at 0x7f7ac0223d00>
+Start training at 0 steps.
+<speechbrain.nnet.schedulers.ReduceLROnPlateau object at 0x7fae3f78bd60>
+speechbrain.utils.epoch_loop - Going into epoch 1
+[TRAIN] Epoch 1/200
+  0%|          | 0/4634 [00:00<?, ?it/s]                                        __main__ - infinite loss or empty loss! it happened 1 times so far - skipping this batch
+  0%|          | 0/4634 [00:14<?, ?it/s]  0%|          | 0/4634 [00:14<?, ?it/s, train_loss=0]  0%|          | 1/4634 [00:14<19:09:14, 14.88s/it, train_loss=0]                                                                 __main__ - infinite loss or empty loss! it happened 2 times so far - skipping this batch
+  0%|          | 1/4634 [00:15<19:09:14, 14.88s/it, train_loss=0]  0%|          | 1/4634 [00:15<19:09:14, 14.88s/it, train_loss=0]  0%|          | 2/4634 [00:15<8:10:56,  6.36s/it, train_loss=0]                                                                 __main__ - infinite loss or empty loss! it happened 3 times so far - skipping this batch
+  0%|          | 2/4634 [00:15<8:10:56,  6.36s/it, train_loss=0]  0%|          | 2/4634 [00:15<8:10:56,  6.36s/it, train_loss=0]  0%|          | 3/4634 [00:15<4:32:09,  3.53s/it, train_loss=0]                                                                __main__ - infinite loss or empty loss! it happened 4 times so far - skipping this batch
+  0%|          | 3/4634 [00:15<4:32:09,  3.53s/it, train_loss=0]  0%|          | 3/4634 [00:15<4:32:09,  3.53s/it, train_loss=0]  0%|          | 4/4634 [00:15<2:50:11,  2.21s/it, train_loss=0]                                                                __main__ - infinite loss or empty loss! it happened 5 times so far - skipping this batch
+  0%|          | 4/4634 [00:15<2:50:11,  2.21s/it, train_loss=0]  0%|          | 4/4634 [00:15<2:50:11,  2.21s/it, train_loss=0]  0%|          | 5/4634 [00:15<1:54:44,  1.49s/it, train_loss=0]                                                                __main__ - infinite loss or empty loss! it happened 6 times so far - skipping this batch
+  0%|          | 5/4634 [00:16<1:54:44,  1.49s/it, train_loss=0]  0%|          | 5/4634 [00:16<1:54:44,  1.49s/it, train_loss=0]  0%|          | 6/4634 [00:16<1:21:47,  1.06s/it, train_loss=0]                                                                __main__ - infinite loss or empty loss! it happened 7 times so far - skipping this batch
+  0%|          | 6/4634 [00:16<1:21:47,  1.06s/it, train_loss=0]  0%|          | 6/4634 [00:16<1:21:47,  1.06s/it, train_loss=0]  0%|          | 7/4634 [00:16<1:00:21,  1.28it/s, train_loss=0]                                                                __main__ - infinite loss or empty loss! it happened 8 times so far - skipping this batch
+  0%|          | 7/4634 [00:16<1:00:21,  1.28it/s, train_loss=0]  0%|          | 7/4634 [00:16<1:00:21,  1.28it/s, train_loss=0]  0%|          | 8/4634 [00:16<45:44,  1.69it/s, train_loss=0]                                                                __main__ - infinite loss or empty loss! it happened 9 times so far - skipping this batch
+  0%|          | 8/4634 [00:16<45:44,  1.69it/s, train_loss=0]  0%|          | 8/4634 [00:16<45:44,  1.69it/s, train_loss=0]  0%|          | 9/4634 [00:16<36:15,  2.13it/s, train_loss=0]                                                              __main__ - infinite loss or empty loss! it happened 10 times so far - skipping this batch
+  0%|          | 9/4634 [00:16<36:15,  2.13it/s, train_loss=0]  0%|          | 9/4634 [00:16<36:15,  2.13it/s, train_loss=0]  0%|          | 10/4634 [00:16<29:52,  2.58it/s, train_loss=0]                                                               __main__ - infinite loss or empty loss! it happened 11 times so far - skipping this batch
+  0%|          | 10/4634 [00:17<29:52,  2.58it/s, train_loss=0]  0%|          | 10/4634 [00:17<29:52,  2.58it/s, train_loss=0]  0%|          | 11/4634 [00:17<24:31,  3.14it/s, train_loss=0]                                                               __main__ - infinite loss or empty loss! it happened 12 times so far - skipping this batch
+  0%|          | 11/4634 [00:17<24:31,  3.14it/s, train_loss=0]  0%|          | 11/4634 [00:17<24:31,  3.14it/s, train_loss=0]  0%|          | 12/4634 [00:17<21:30,  3.58it/s, train_loss=0]                                                               __main__ - infinite loss or empty loss! it happened 13 times so far - skipping this batch
+  0%|          | 12/4634 [00:17<21:30,  3.58it/s, train_loss=0]  0%|          | 12/4634 [00:17<21:30,  3.58it/s, train_loss=0]  0%|          | 13/4634 [00:17<19:21,  3.98it/s, train_loss=0]                                                               __main__ - infinite loss or empty loss! it happened 14 times so far - skipping this batch
+  0%|          | 13/4634 [00:17<19:21,  3.98it/s, train_loss=0]  0%|          | 13/4634 [00:17<19:21,  3.98it/s, train_loss=0]  0%|          | 14/4634 [00:17<16:42,  4.61it/s, train_loss=0]                                                               __main__ - infinite loss or empty loss! it happened 15 times so far - skipping this batch
+  0%|          | 14/4634 [00:17<16:42,  4.61it/s, train_loss=0]  0%|          | 14/4634 [00:17<16:42,  4.61it/s, train_loss=0]  0%|          | 15/4634 [00:17<16:35,  4.64it/s, train_loss=0]

@@ -217,7 +217,7 @@ class Separation(sb.Brain):
         with self.no_sync(not should_step):
             if self.use_amp:
                 with torch.autocast(
-                    dtype=torch.bfloat16, device_type=torch.device(self.device).type,
+                    dtype=torch.float16, device_type=torch.device(self.device).type,
                 ):
                     mix, targets = self.train_augment(mix, targets, mix_lens)
                     predictions = self.compute_forward(mix, sb.Stage.TRAIN)
